@@ -445,6 +445,10 @@ a {
     color: var(--button-color);
 }
 
+.footer__link:active {
+    opacity: 0.6;
+}
+
 
 /* INNER  */
 .inner__list {
