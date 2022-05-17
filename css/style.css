@@ -310,6 +310,7 @@ select:-webkit-autofill:focus {
     padding: 48px 64px;
     margin-bottom: 24px;
     border-radius: 10px;
+    margin-top: -80px;
     background-color: #4b3f6b;
     background-image: url(../img/feature-bg.svg);
     background-repeat: no-repeat;
