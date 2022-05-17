@@ -19,7 +19,7 @@ if (elFormSection) {
             evt.target.classList.add('copy-button--copied');
 
             // Copy short link to clipboard 
-            navigator.clipboard.writeText(evt.target.PreviousElementSibling.textContent);
+            // navigator.clipboard.writeText(evt.target.PreviousElementSibling.textContent);
 
             // Reset button text and class after 1 second 
             setTimeout(function() {

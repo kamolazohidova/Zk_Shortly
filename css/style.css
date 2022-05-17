@@ -540,98 +540,98 @@ select:-webkit-autofill:focus {
 
 /* SITE-FOOTER  */
 .site-footer {
-    padding-top: 70px;
-    padding-bottom: 70px;
-    background-color: #232127;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    color: var(--white);
+    background-color: var(--dark);
 }
 
 .site-footer__container {
     display: flex;
-}
-
-.footer-logo {
-    display: flex;
     align-items: flex-start;
-    margin-right: 261px;
 }
 
-.footer-logo__img {
+.site-footer-logo {
+    margin-right: 30px;
+}
+
+
+/* SITE-FOOTER__MENUS  */
+.site-footer__menus {
     display: flex;
-    align-items: flex-start;
-    width: 120px;
-    height: 33px;
+    margin-right: 100px;
+    margin-left: auto;
 }
 
-
-/* WRAPPER  */
-.footer-wrapper {
-    display: flex;
-    align-self: start;
+.site-footer__menu:not(:last-child) {
+    margin-right: 90px;
 }
 
-.footer__sitenav__title {
+.site-footer__title {
     margin-top: 0;
     margin-bottom: 22px;
-    margin-right: 101px;
-    font-family: var(--font-family);
-    font-weight: 700;
     font-size: 16px;
-    line-height: 24px;
+    line-height: normal;
     letter-spacing: -0.25px;
-    color: var(--white);
 }
 
-.footer__list {
-    margin: 0;
+.site-footer__menu-list {
     padding: 0;
-    list-style: none;
+    margin: 0;
+    list-style: none; 
 }
 
-.footer__item {
-    margin-bottom: 10px;
+.site-footer__menu-item:not(:last-child) {
+    margin-bottom: 7px;
 }
 
-.footer__link {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 22px;
-    letter-spacing: -0.234375px;
-    color: #BFBFBF;
+.site-footer__menu-link {
+    color: #bfbfbf;
+    text-transform: capitalize;
 }
 
-.footer__link:hover {
+.site-footer__menu-link:hover {
     color: var(--button-color);
 }
 
-.footer__link:active {
+.site-footer__menu-link:active {
     opacity: 0.6;
 }
 
 
-/* INNER  */
-.inner__list {
+/* SOCIALS  */
+.socials__list {
     display: flex;
-    align-items: center;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.footer-inner__item:not(:last-child) {
+.socials__item:not(:last-child) {
     margin-right: 24px;
 }
 
-.footer-inner__link {
+.socials__link {
     display: flex;
+    align-items: center;
+    color: var(--white);
 }
 
-.footer-inner__img {
-    width: 24px;
-    height: 24px;
+.socials__link:hover {
+    color: var(--button-color);
 }
 
-.footer-inner__twitter-img {
+.socials__link:active {
+    opacity: 0.6;
+}
+
+.socials__twitter-icon {
     width: 24px;
     height: 19px;
+}
+
+.socials__icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
 }
