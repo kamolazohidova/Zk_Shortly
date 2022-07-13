@@ -228,17 +228,18 @@ select:-webkit-autofill:focus {
     margin-right: 30px;
 }
 
-.stenav__link {
+.sitenav__link {
     display: block;
     color: var(--text-color);
 }
 
-.stenav__link:hover {
+.sitenav__link:hover {
     color: var(--heading-color);
+
 }
 
-.stenav__link:active {
-    opacity: 0.6;
+.sitenav__link:focus {
+    
 }
 
 .site-header__link {
@@ -466,6 +467,8 @@ select:-webkit-autofill:focus {
 }
 
 
+
+
 /* INDEX-FEATURE  */
 .index-feature {
     position: relative;
@@ -473,6 +476,8 @@ select:-webkit-autofill:focus {
     border-radius: 5px;
     background-color: var(--white);
 }
+
+
 
 .index-feaure__icon-wrapper {
     position: absolute;
